@@ -143,7 +143,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
-.Jain chatbot vectorstore/
+Jain chatbot vectorstore/
 
 # Spyder project settings
 .spyderproject
