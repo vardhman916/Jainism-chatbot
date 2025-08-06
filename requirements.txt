@@ -1,0 +1,24 @@
+langchain
+streamlit
+google-generativeai
+pandas              # (if using for data handling)
+python-dotenv
+langchain-community
+langchain-google-genai
+huggingface-hub
+langchain_huggingface
+unstructured
+tiktoken
+pinecone-client
+pypdf
+sentence-transformers
+langserve
+fastapi
+uvicorn
+arxiv
+bs4
+chromadb
+faiss-cpu # one type of databases to store embedding
+arxiv
+wikipedia
+langchain_hub
