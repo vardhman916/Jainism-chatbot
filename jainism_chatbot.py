@@ -110,8 +110,10 @@ agent_executor = AgentExecutor(agent=agent, tools=tools, verbose=False)
 
 
 # Streamlit UI
-st.set_page_config(page_title="Jainism AI Assistant", page_icon="🧘‍♂️")
-st.title("🧘‍♂️ Jainism AI Assistant")
+st.set_page_config(page_title="Geo Jainism AI Assistant", page_icon="./logo/logo.jpg")
+# st.image("my_logo.png", width=150)
+st.image("./logo/logo.jpg", width=50)
+st.title("GeoJainism AI Assistant")
 # st.image("A_screenshot_of_a_Jainism_AI_Assistant_web_applica.png", use_column_width=True)
 
 user_query = st.text_input("Ask a question about Jainism:")
@@ -127,3 +129,5 @@ if st.button("Get Answer") and user_query:
 # results = parallel_retrievers.invoke(sample_query)
 # print("MMR:", type(results["mmr"][0]))
 # print("Similarity:", type(results["similarity"][0]))
+
+#give me summary of  Sallekhana from wikipedia?
